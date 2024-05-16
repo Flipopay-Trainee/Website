@@ -240,6 +240,257 @@ button{
     cursor: pointer;
 }
 
+ /* Tab responsvive */
+
+@media screen and (max-width: 767px){
+    .cont-head img{
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+    
+    .font-busi{
+        font-weight: 500;
+        font-size: 8px;
+    }
+    
+    .font-key{        
+        font-size: 8px;
+    }
+    
+    .p-title{
+         font-size: 40px;
+         font-weight:100;
+         margin-top: 30px;
+    }
+    
+    .h5-head{
+        font-size: 40px;
+    }
+    
+    .p-title2{
+        margin-top: 30px;
+       margin-bottom: 30px;
+    }
+    
+    .cont-title button{
+        padding: 11px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 10px;
+        font-size: 7px;
+    }
+    
+    .color-key{
+         font-size: 12px;
+    }
+    
+    /* website4 */
+    
+    .cont-name{
+        margin-top: 5rem;
+        height: 50vh;
+    }
+    
+    .tag-arrow {
+        font-size: 18px;
+    }
+    
+    .p-can{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .cont-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont-flex input{
+        padding: 5px 1px 3px 3px;
+        margin-top: 40px;
+    }
+    
+    .cont-flex input[type="text"]{
+        width: 20rem;
+    }
+    
+    .cont-flex input::placeholder{
+        font-size: medium;
+    }
+    
+    
+    
+    .web4-button{
+        margin-top: 43px;
+        display: flex;
+        gap:20px;
+    }
+    
+    .web4-button .button-nxt{
+        padding: 14px;
+    }
+
+    /* website6 */
+
+    .p-can-ques{
+        font-size: 18px;
+        margin-bottom: 10px;
+}
+
+.cont-flex-ques input{
+    padding: 5px 1px 3px 3px;
+    margin-top: 40px;
+}
+
+.cont-flex-ques input[type="text"]{
+    width: 20rem;
+}
+
+.cont-flex-ques input::placeholder{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.cont-end{
+    height: 70vh;
+    gap: 10px;
+}
+
+.cont-end h3{
+    font-size: 50px;
+}
+
+.p-font-call{
+    font-size: 35px;
+}
+
+.p-thankyou{
+    font-size: 35px;
+}
+
+}
+
+/* mobile */
+
+@media screen and (max-width: 480px){
+    .cont-head img{
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+    
+    .font-busi{
+        font-weight: 500;
+        font-size: 8px;
+    }
+    
+    .font-key{        
+        font-size: 8px;
+    }
+    
+    .p-title{
+         font-size: 30px;
+         font-weight:100;
+         margin-top: 30px;
+    }
+    
+    .h5-head{
+        font-size: 30px;
+    }
+    
+    .p-title2{
+        margin-top: 20px;
+       margin-bottom: 30px;
+       font-size: 12px;
+    }
+    
+    .color-key{
+         font-size: 12px;
+    }
+    
+    /* website4 */
+    
+    .cont-name{
+        margin-top: 5rem;
+        height: 50vh;
+    }
+    
+    .tag-arrow {
+        font-size: 18px;
+    }
+    
+    .p-can{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .cont-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont-flex input{
+        padding: 5px 1px 3px 3px;
+        margin-top: 40px;
+    }
+    
+    .cont-flex input[type="text"]{
+        width: 14rem;
+    }
+    
+    .cont-flex input::placeholder{
+        font-size: small;
+    }
+    
+    .web4-button{
+        margin-top: 43px;
+    }
+    
+    .web4-button .button-nxt{
+        padding: 14px;
+    }
+
+    /* website6 */
+
+    .p-can-ques{
+        font-size: 18px;
+        margin-bottom: 10px;
+}
+
+.cont-flex-ques input{
+    padding: 5px 1px 3px 3px;
+    margin-top: 40px;
+}
+
+.cont-flex-ques input[type="text"]{
+    width: 15rem;
+}
+
+.cont-flex-ques input::placeholder{
+    font-size: small;
+}
+
+.cont-end{
+    height: 70vh;
+    gap: 10px;
+}
+
+.cont-end h3{
+    font-size: 27px;
+}
+
+.p-font-call{
+    font-size: 20px;
+}
+
+.p-thankyou{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+}
+    
 
 
 
