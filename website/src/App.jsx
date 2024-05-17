@@ -5,7 +5,6 @@ import Website5 from './components/Website5'
 import Website6 from './components/Website6'
 import Website7 from './components/Website7'
 
-
 function App() {
   return (
       <div>
@@ -17,5 +16,4 @@ function App() {
       </div>        
     )
 }
-
 export default App

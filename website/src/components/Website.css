@@ -57,6 +57,7 @@
 .h5-head{
     font-size: 60px;
     color: #D3A547;
+    text-align: center;
 }
 
 .p-title2{
@@ -487,6 +488,10 @@ button{
 .p-thankyou{
     margin-top: 20px;
     font-size: 25px;
+}
+
+.p-can-ques{
+    font-size: 15px;
 }
 
 }
