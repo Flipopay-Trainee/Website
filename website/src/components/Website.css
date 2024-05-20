@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+}
+
+.cont-head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-head img{
+    height: 80px;
+    width: 90px;
+    margin: 10px;
+}
+
+.cont-title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    font-family: "Mulish", sans-serif;
+}
+
+.font-busi{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 10.5px;
+}
+
+.font-key{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 10.5px;
+}
+
+.p-title{
+     font-size: 60px;
+     color: #D3A547;
+     font-weight:100;
+     margin-top: 30px;
+}
+
+.h5-head{
+    font-size: 60px;
+    color: #D3A547;
+    text-align: center;
+}
+
+.p-title2{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.cont-title button{
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    background-color: #7B5A14;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.color-key{
+     color: #F2D376 ;
+}
+
+/* website4 */
+
+.cont-name{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.tag-arrow {
+    font-family: "Mulish", sans-serif;
+    color: #F2D376;
+    font-size: 25px;
+}
+
+.p-can{
+    font-family: "Mulish", sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.cont-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-flex input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #D3A547;
+    padding: 5px 1px 3px 3px;
+    background-color: black;
+    color: #D3A547;
+    margin-top: 40px;
+}
+
+.cont-flex input[type="text"]{
+    width: 30rem;
+}
+
+.cont-flex input:hover{
+    outline: none;
+}
+
+.cont-flex input::placeholder{
+    color: #D3A547;
+    background-color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+
+
+.web4-button{
+    margin-top: 43px;
+    display: flex;
+    gap:20px;
+}
+
+.web4-button .button-nxt{
+    padding: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #7B5A14;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.web4-button .button-enter{
+    background-color: black;
+    color:white;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* website6 */
+
+.p-can-ques{
+        font-family: "Mulish", sans-serif;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 10px;
+}
+
+.cont-flex-ques{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-flex-ques input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #D3A547;
+    padding: 5px 1px 3px 3px;
+    background-color: black;
+    color: #D3A547;
+    margin-top: 15px;
+}
+
+.cont-flex-ques input[type="text"]{
+    width: 30rem;
+}
+
+.cont-flex-ques input:hover{
+    outline: none;
+}
+
+.cont-flex-ques input::placeholder{
+    color: #D3A547;
+    background-color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+/* website7 */
+
+.cont-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 10px;
+}
+
+.cont-end h3{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Mulish", sans-serif;
+    color: #D3A547;
+}
+
+.p-font-call{
+    font-size: 42px;
+    font-family: "Mulish", sans-serif;
+    color: #D3A547;
+    font-weight: 100;
+}
+
+.p-thankyou{
+    font-size: 55px;
+    font-family: "Mulish", sans-serif;
+    color: #D3A547;
+    font-weight: 100;
+}
+
+button{
+    cursor: pointer;
+}
+
+ /* Tab responsvive */
+
+@media screen and (max-width: 767px){
+    .cont-head img{
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+    
+    .font-busi{
+        font-weight: 500;
+        font-size: 8px;
+    }
+    
+    .font-key{        
+        font-size: 8px;
+    }
+    
+    .p-title{
+         font-size: 40px;
+         font-weight:100;
+         margin-top: 30px;
+    }
+    
+    .h5-head{
+        font-size: 40px;
+    }
+    
+    .p-title2{
+        margin-top: 30px;
+       margin-bottom: 30px;
+    }
+    
+    .cont-title button{
+        padding: 11px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 10px;
+        font-size: 7px;
+    }
+    
+    .color-key{
+         font-size: 12px;
+    }
+    
+    /* website4 */
+    
+    .cont-name{
+        margin-top: 5rem;
+        height: 50vh;
+    }
+    
+    .tag-arrow {
+        font-size: 18px;
+    }
+    
+    .p-can{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .cont-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont-flex input{
+        padding: 5px 1px 3px 3px;
+        margin-top: 40px;
+    }
+    
+    .cont-flex input[type="text"]{
+        width: 20rem;
+    }
+    
+    .cont-flex input::placeholder{
+        font-size: medium;
+    }
+    
+    
+    
+    .web4-button{
+        margin-top: 43px;
+        display: flex;
+        gap:20px;
+    }
+    
+    .web4-button .button-nxt{
+        padding: 14px;
+    }
+
+    /* website6 */
+
+    .p-can-ques{
+        font-size: 18px;
+        margin-bottom: 10px;
+}
+
+.cont-flex-ques input{
+    padding: 5px 1px 3px 3px;
+    margin-top: 40px;
+}
+
+.cont-flex-ques input[type="text"]{
+    width: 20rem;
+}
+
+.cont-flex-ques input::placeholder{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.cont-end{
+    height: 70vh;
+    gap: 10px;
+}
+
+.cont-end h3{
+    font-size: 50px;
+}
+
+.p-font-call{
+    font-size: 35px;
+}
+
+.p-thankyou{
+    font-size: 35px;
+}
+
+}
+
+/* mobile */
+
+@media screen and (max-width: 480px){
+    .cont-head img{
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+    
+    .font-busi{
+        font-weight: 500;
+        font-size: 8px;
+    }
+    
+    .font-key{        
+        font-size: 8px;
+    }
+    
+    .p-title{
+         font-size: 30px;
+         font-weight:100;
+         margin-top: 30px;
+    }
+    
+    .h5-head{
+        font-size: 30px;
+    }
+    
+    .p-title2{
+        margin-top: 20px;
+       margin-bottom: 30px;
+       font-size: 12px;
+    }
+    
+    .color-key{
+         font-size: 12px;
+    }
+    
+    /* website4 */
+    
+    .cont-name{
+        margin-top: 5rem;
+        height: 50vh;
+    }
+    
+    .tag-arrow {
+        font-size: 18px;
+    }
+    
+    .p-can{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .cont-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont-flex input{
+        padding: 5px 1px 3px 3px;
+        margin-top: 40px;
+    }
+    
+    .cont-flex input[type="text"]{
+        width: 14rem;
+    }
+    
+    .cont-flex input::placeholder{
+        font-size: small;
+    }
+    
+    .web4-button{
+        margin-top: 43px;
+    }
+    
+    .web4-button .button-nxt{
+        padding: 14px;
+    }
+
+    /* website6 */
+
+    .p-can-ques{
+        font-size: 18px;
+        margin-bottom: 10px;
+}
+
+.cont-flex-ques input{
+    padding: 5px 1px 3px 3px;
+    margin-top: 40px;
+}
+
+.cont-flex-ques input[type="text"]{
+    width: 15rem;
+}
+
+.cont-flex-ques input::placeholder{
+    font-size: small;
+}
+
+.cont-end{
+    height: 70vh;
+    gap: 10px;
+}
+
+.cont-end h3{
+    font-size: 27px;
+}
+
+.p-font-call{
+    font-size: 20px;
+}
+
+.p-thankyou{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.p-can-ques{
+    font-size: 15px;
+}
+
+}
+    
+
+
+
