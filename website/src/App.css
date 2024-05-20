@@ -1,42 +1,269 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.conatiner{
+  background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.venture-container{
+  height: 90%;
+  /* margin-left: 15rem; */
+  justify-content: center;          
+  align-items: center;
+  background-color: black;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.line1{
+  width: 6rem;
+  margin-left: 20rem;
+  
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.venture-content{
+  display: flex;
+  width: 48.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+.head1-vent{
+ margin-left: 22rem;
+ margin-bottom: 0;
+}
+.head2-vent{
+  margin-top: 0;
+  margin-left: 17rem;
+  margin-bottom: 0;
+}
+.cont1{
+  border: 1px solid  rgb(194, 173, 55);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column ;
+  width: 13rem;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.para1{
+ color: white;
+ font-family: "Work Sans", sans-serif;
+}
+.head1-vent{
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  color: rgb(194, 173, 55);
+}
+.head2-vent{
+  font-family: "Mulish", sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  color: rgb(194, 173, 55);
+}
+.img-venture{
+ margin-left: 1rem;
+}
+.line1{
+  width: 9rem;
+  border: 1px solid  rgb(194, 173, 55);
+}
+.benefit-container{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.resp-1{
+  display: flex;
+}
+.resp-2{
+  display: flex;
+}
+.ben-head{
+  margin-left: 2rem;
+  width: 40%;
+
+}
+.benefit-head1{
+  font-family: "Mulish", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(194, 173, 55) ;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+.ben-head2{
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  color: rgb(194, 173, 55) ;
+  margin-top: 0;
+}
+.line2{
+  margin-top: 0;
+  width: 10rem;
+  float: left;
+  border: 1px solid  rgb(194, 173, 55);
+}
+.benefit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9rem;
+  /* flex-direction: column; */
+}
+.ben-img1{
+  width: 10rem;
+  height: 8rem;
+  color:  rgb(194, 173, 55) ;
+}
+.ben-img2{
+  width: 10rem;
+  height: 8rem;
+  color:  rgb(194, 173, 55) ;
+}
+.ben-head1{
+  color:rgb(194, 173, 55) ;
+}
+.ben-para1{
+  color: white;
+}
+.box1{
+  margin-top: 4rem;
+  width: 10rem;
+
+}
+.box2{
+
+  margin-top: 3rem;
+  width: 10rem;
+}
+.box3{
+  margin-top: 4rem;
+  width: 10rem;
+}
+.box4{
+  margin-top: 4rem;
+  width: 10rem;
+}
+.box5{
+  margin-top: 4rem;
+  width: 10rem;
+}
+.box6{
+  margin-top: 2rem;
+  width: 10rem;
+}
+.box7
+{
+  margin-top: 4rem;
+  width: 10rem;
+}
+.ben-head1{
+  margin-left: 4rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  .network-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black; 
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.network {
+  margin-top: 8rem;
+    text-align: center; 
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid rgb(194, 173, 55);
+    width: 40rem;
+    margin-bottom: 10rem;
 }
 
-.card {
-  padding: 2em;
+.net-head1
+{
+  color:rgb(194, 173, 55) ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+.net-head2{
+  color:rgb(194, 173, 55) ;
+  font-size: 2rem;
+  margin-top: 0;
+
+}
+.net-btn{
+  background-color: rgb(194, 173, 55);
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px solid rgb(194, 173, 55);
+  width: 14rem;
+  height: 2rem;
+  font-size: 10px;
+}
+.footer-container{
+  display: flex;
+  background-color: rgb(194, 173, 55);
+  justify-content: space-between;
+  align-items: center;
+}
+.foot-left{
+  margin-top: 8rem;
+}
+.list{
+  list-style: none;
+  color: white;
+  flex-direction: column;
+  
+}
+.foot-mid{
+  margin-top: 1rem;
+}
+.img-foot{
+  margin-left: 3rem;
+}
+.head1-foot{
+  color: white;
+  margin-bottom: 0;
+}
+.head2-foot{
+  margin-top: 0;
+  margin-left: 2rem;
+  color: white;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.para1-foot{
+
+  margin-top: 0;
+  color: white;
+  margin-left: 4rem;
+}
+.foot-right{
+  margin-top: 7rem;
+  width: 9rem;
+}
+.para2-foot{
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+.img-curve2{
+   display: none;
 }
+
+.img-curve1{
+  width: 80%;
+  position: absolute;
+}
+
