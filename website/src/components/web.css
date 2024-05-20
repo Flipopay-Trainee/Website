@@ -1,0 +1,35 @@
+@media screen and (max-device-width: 1024px){
+
+.img-curve1{
+    display: none;
+}
+
+.img-curve2{
+    display: block;
+
+}
+.benefit{
+    transform: rotate(90deg);
+    margin-top: 26rem;
+    margin-bottom: 26rem;
+
+
+}
+
+     
+}
+
+@media screen and (max-width: 480px){
+
+    .cont1{
+        margin-left: 15rem;
+    }
+     
+    .benefit{
+        margin-top: 26rem;
+        transform: rotate(90deg);
+        margin-bottom: 22rem;
+
+    }
+
+}

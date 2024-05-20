@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import './components/web.css'
 import Venture from './components/Venture'
 import Benefits from './components/Benefits'
 import Network from './components/Network'
