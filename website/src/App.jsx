@@ -5,7 +5,7 @@ import Page4 from "./components/Page4";
 import Page5 from "./components/Page5";
 
 import "./App.css";
-
+import "./components/query.css";
 
 function App() {
   return (

@@ -40,21 +40,22 @@ export default function Nextpage2() {
             <p className="deatils-para2">www.keyglobalnetwork.com</p>
           </div>
         </div>
-      <div className="right-container">
-      <h3 className="right-h1">About</h3>
-        <h2 className="right-h2">Us</h2>
-        <hr className="second-hr"/>
-       
-      <div className="Deatils-right">
+        <div className="right-container">
+          <div>
+            <h3 className="right-h1">About</h3>
+            <h2 className="right-h2">Us</h2>
+            <hr className="second-hr" />
+          </div>
 
-          {deatils.map((item) => (
-            <article key={item.name} className={item.name}>
-              <h2>{item.heading}</h2>
-              <p>{item.para}</p>
-            </article>
-          ))}
+          <div className="Deatils-right">
+            {deatils.map((item, index) => (
+              <article key={index} className={item.name}>
+                <h2>{item.heading}</h2>
+                <p>{item.para}</p>
+              </article>
+            ))}
+          </div>
         </div>
-      </div>
       </div>
     </>
   );
