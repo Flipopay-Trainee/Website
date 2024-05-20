@@ -12,8 +12,11 @@ function App() {
     <>
       <Page1 />
       <Nextpage2 />
-      <Page3 />
-      <Page4 />
+      <div className="values">
+        <Page3 />
+        <Page4 />
+      </div>
+
       <Page5 />
     </>
   );
