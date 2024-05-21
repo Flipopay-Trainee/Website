@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.container{
+section{
     background-color: black;
     height: 100vh;
 }

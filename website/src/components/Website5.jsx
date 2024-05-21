@@ -4,7 +4,7 @@ import Horse from '../assets/Horse.png'
 
 function Website5() {
   return (
-      <div className="container">
+      <section>
        <div className='cont-head'>
 
       <img src={Horse} alt="horse" />
@@ -25,7 +25,7 @@ function Website5() {
         </span>
         </div>
         </div>
-        </div>
+        </section>
   )
 }
 

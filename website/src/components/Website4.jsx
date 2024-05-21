@@ -4,7 +4,7 @@ import './Website.css'
 
 function Website4() {
   return (
-    <div className="container">
+    <section>
        <div className='cont-head'>
       <img src={Horse} alt="horse" />
       <h3 className="color-key">KEY GLOBAL NETWORK SDN BHD</h3>
@@ -24,7 +24,7 @@ function Website4() {
         </span>
         </div>
         </div>
-        </div>
+        </section>
   )
 }
 

@@ -4,7 +4,7 @@ import Horse from '../assets/Horse.png'
 
 function Website3() {
   return (
-    <div className="container">
+    <section>
     <div className='cont-head'>
       <img src={Horse} alt="horse" />
       <h3 className="color-key">KEY GLOBAL NETWORK SDN BHD</h3>
@@ -17,7 +17,7 @@ function Website3() {
         <p className="p-title2">We’d like to know about you.</p>
         <button>LET’S TALK</button>
     </div>
-    </div>
+    </section>
   )
 }
 
