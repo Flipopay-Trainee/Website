@@ -1,0 +1,63 @@
+import "./navbar.css";
+function Navbar() {
+  return (
+    <>
+      <nav className="nav-bar-container">
+        <div className="logo-section">
+          <div className="nav-bar-logo">
+            <div className="circle"></div>
+            <div className="circle"></div>
+          </div>
+          <h1>planoo</h1>
+        </div>
+        <div className="nav-items">
+          <ul className="nav-list">
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <button className="register">Register</button>
+      </nav>
+    </>
+  );
+}
+
+export default Navbar;
+////////////////////////////////////////
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle {
+  background-color: orangered;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.nav-bar-logo {
+  display: flex;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-items {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.register {
+  background-color: gray;
+  border: solid gray;
+  padding: 8px;
+  border-radius: 50px;
+}

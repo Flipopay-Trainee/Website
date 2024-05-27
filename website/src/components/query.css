@@ -1,0 +1,86 @@
+@media only screen and (max-width: 30em) {
+  .nav-container {
+    background-color: rgb(43, 51, 51);
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+  .head-1 {
+    font-size: 10px;
+  }
+  .Left-logo {
+    justify-content: center;
+    align-items: center;
+  }
+  .first-img {
+    height: 30px;
+  }
+  .first-para1 {
+    font-size: 5px;
+  }
+  .centre-cntnt {
+    background-color: rgb(109, 98, 98);
+    height: 100%;
+  }
+  .first-para2 {
+    font-size: 5px;
+  }
+  .head-2 {
+    font-size: 60px;
+  }
+  .centre-h {
+    font-size: 90px;
+  }
+  .Container-deatils {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .Third-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 330px;
+    margin-bottom: 10px;
+
+    gap: 50px;
+  }
+  .third-h1 {
+    font-size: 30px;
+
+  }
+  .third-h2 {
+    font-size: 35px;
+  }
+  .third-img {
+    height: 100%;
+    width: 200%;
+  }
+  .Fourth-container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 450px;
+  }
+  .fourth-h2 {
+    font-size: 65px;
+  }
+  .fifth-container {
+    flex-direction: column;
+  }
+  .fourth-img{
+    height: 100%;
+    width: 200%;
+    
+  }
+.fourth-h2{
+  font-size: 30px;
+}
+.fourth-h1{
+  font-size: 20px;
+
+}
+.fifth-img{
+justify-content: center;
+}
+}

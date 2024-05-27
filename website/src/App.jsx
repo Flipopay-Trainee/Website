@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Page1 from "./components/Page1";
+import Nextpage2 from "./components/Nextpage2";
+import Page3 from "./components/Page3";
+import Page4 from "./components/Page4";
+import Page5 from "./components/Page5";
+
+import "./App.css";
+import "./components/query.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Page1 />
+      <Nextpage2 />
+      <div className="values">
+        <Page3 />
+        <Page4 />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <Page5 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
